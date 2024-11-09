@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: za.co.wtc.tutorial.MemberTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
+za.co.wtc.tutorial.MemberTest.testGetNameAndId()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "za.co.wtc.tutorial.Member.getName()" because "this.member" is null
+	at za.co.wtc.tutorial.MemberTest.testGetNameAndId(MemberTest.java:21)
+
+za.co.wtc.tutorial.MemberTest.testBorrowBookSuccess()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "za.co.wtc.tutorial.Book.checkout()" because "this.book" is null
+	at za.co.wtc.tutorial.MemberTest.testBorrowBookSuccess(MemberTest.java:28)
+
+za.co.wtc.tutorial.MemberTest.testBorrowBookAlreadyBorrowed()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "za.co.wtc.tutorial.Book.setCheckout(boolean)" because "this.book" is null
+	at za.co.wtc.tutorial.MemberTest.testBorrowBookAlreadyBorrowed(MemberTest.java:37)
+
+za.co.wtc.tutorial.MemberTest.testReturnBookSuccess()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "za.co.wtc.tutorial.Book.checkout()" because "this.book" is null
+	at za.co.wtc.tutorial.MemberTest.testReturnBookSuccess(MemberTest.java:45)
+
+za.co.wtc.tutorial.MemberTest.testReturnBookNotBorrowed()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "za.co.wtc.tutorial.Member.borrowBook(za.co.wtc.tutorial.Book)" because "this.member" is null
+	at za.co.wtc.tutorial.MemberTest.testReturnBookNotBorrowed(MemberTest.java:57)
+
